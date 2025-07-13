@@ -40,6 +40,7 @@ app.get('/game', (req, res) => {
 });
 
 // Route 7: GET /gitwebhook
+
 app.get('/companay', (req, res) => {
      res.send({
           name: "Microsoft",
@@ -48,11 +49,18 @@ app.get('/companay', (req, res) => {
      });
 });
 
+
 // Route 8: GET /gitwebhook
+app.get('/product', (req, res) => {
+     res.send({
+          name: "GTA",
+          type:"Gaming",
+
+// Route 9: GET /gitwebhook
 app.get('/planet', (req, res) => {
      res.send({
           name: "Earth",
-          color:"blue"
+
      });
 });
 
