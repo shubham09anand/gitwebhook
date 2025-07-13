@@ -64,7 +64,8 @@ app.get('/planet', (req, res) => {
           name: "Earth",
           color:"blue",
           language:"English",
-          counteries:192
+          counteries:192,
+          population:'8.5b illion'
      });
 });
 
