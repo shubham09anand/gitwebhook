@@ -39,12 +39,20 @@ app.get('/game', (req, res) => {
      });
 });
 
-// Route 6: GET /gitwebhook
+// Route 7: GET /gitwebhook
 app.get('/companay', (req, res) => {
      res.send({
           name: "Microsoft",
-          coontry:"USA",
+          country:"USA",
           estin:1975
+     });
+});
+
+// Route 8: GET /gitwebhook
+app.get('/planet', (req, res) => {
+     res.send({
+          name: "Earth",
+          color:"blue"
      });
 });
 
