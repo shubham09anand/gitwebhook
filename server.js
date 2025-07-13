@@ -25,9 +25,17 @@ app.get('/test', (req, res) => {
 // Route 4: GET /gitwebhook
 app.get('/profile', (req, res) => {
      res.send({
-          name: "Shubham Aannad",
+          name: "Shubham Ananad",
           age: 21,
           phone: 8409976925,
+     });
+});
+
+// Route 4: GET /gitwebhook
+app.get('/game', (req, res) => {
+     res.send({
+          name: "Minecraft",
+          company:"Microsoft",
      });
 });
 
