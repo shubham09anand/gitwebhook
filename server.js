@@ -35,7 +35,7 @@ app.get('/profile', (req, res) => {
 app.get('/game', (req, res) => {
      res.send({
           name: "Minecraft",
-          company:"Microsoft",
+          company: "Microsoft",
      });
 });
 
@@ -44,8 +44,8 @@ app.get('/game', (req, res) => {
 app.get('/companay', (req, res) => {
      res.send({
           name: "Microsoft",
-          country:"USA",
-          estin:1975
+          country: "USA",
+          estin: 1975
      });
 });
 
@@ -54,7 +54,9 @@ app.get('/companay', (req, res) => {
 app.get('/product', (req, res) => {
      res.send({
           name: "GTA",
-          type:"Gaming",
+          type: "Gaming",
+     });
+});
 
 // Route 9: GET /gitwebhook
 app.get('/planet', (req, res) => {
