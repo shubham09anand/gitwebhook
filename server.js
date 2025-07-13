@@ -43,8 +43,16 @@ app.get('/game', (req, res) => {
 app.get('/companay', (req, res) => {
      res.send({
           name: "Microsoft",
-          coontry:"USA",
+          country:"USA",
           estin:1975
+     });
+});
+
+// Route 6: GET /gitwebhook
+app.get('/product', (req, res) => {
+     res.send({
+          name: "GTA",
+          type:"Gaming",
      });
 });
 
