@@ -12,6 +12,11 @@ app.get('/about', (req, res) => {
      res.send('This is the About Page');
 });
 
+// Route 3: GET /gitwebhook
+app.get('/gitwebhook', (req, res) => {
+     res.send('This is the gitwebhook');
+});
+
 // Start the server
 app.listen(PORT, () => {
      console.log(`Server is running on http://localhost:${PORT}`);
