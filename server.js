@@ -22,6 +22,15 @@ app.get('/test', (req, res) => {
      res.send('This is the test');
 });
 
+// Route 4: GET /gitwebhook
+app.get('/profile', (req, res) => {
+     res.send({
+          name: "Shubham Aannad",
+          age: 21,
+          phone: 8409976925,
+     });
+});
+
 // Start the server
 app.listen(PORT, () => {
      console.log(`Server is running on http://localhost:${PORT}`);
