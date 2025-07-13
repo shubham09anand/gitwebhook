@@ -62,7 +62,7 @@ app.get('/product', (req, res) => {
 app.get('/planet', (req, res) => {
      res.send({
           name: "Earth",
-          color:"blue"
+
      });
 });
 
