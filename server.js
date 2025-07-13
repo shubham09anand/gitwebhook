@@ -22,7 +22,7 @@ app.get('/test', (req, res) => {
      res.send('This is the test');
 });
 
-// Route 4: GET /gitwebhook
+// Route 5: GET /gitwebhook
 app.get('/profile', (req, res) => {
      res.send({
           name: "Shubham Ananad",
@@ -31,11 +31,20 @@ app.get('/profile', (req, res) => {
      });
 });
 
-// Route 4: GET /gitwebhook
+// Route 6: GET /gitwebhook
 app.get('/game', (req, res) => {
      res.send({
           name: "Minecraft",
           company:"Microsoft",
+     });
+});
+
+// Route 6: GET /gitwebhook
+app.get('/companay', (req, res) => {
+     res.send({
+          name: "Microsoft",
+          coontry:"USA",
+          estin:1975
      });
 });
 
