@@ -70,6 +70,18 @@ app.get('/planet', (req, res) => {
      });
 });
 
+
+// Route 10: GET /gitwebhook
+app.get('/planet', (req, res) => {
+     res.send({
+          name: "laptop",
+          color:"gray",
+          language:"English",
+          ram:'24GB',
+          memoray:'1Tb'
+     });
+});
+
 // Start the server
 app.listen(PORT, () => {
      console.log(`Server is running on http://localhost:${PORT}`);
