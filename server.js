@@ -78,7 +78,7 @@ app.get('/laptop', (req, res) => {
           color:"gray",
           language:"English",
           ram:'24GB',
-          memoray:'1Tb'
+          memoray:'2Tb'
      });
 });
 
