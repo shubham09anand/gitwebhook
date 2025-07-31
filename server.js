@@ -72,7 +72,7 @@ app.get('/planet', (req, res) => {
 
 
 // Route 10: GET /gitwebhook
-app.get('/planet', (req, res) => {
+app.get('/laptop', (req, res) => {
      res.send({
           name: "laptop",
           color:"gray",
